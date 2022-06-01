@@ -1,4 +1,4 @@
-# <img src="public/icons/icon_48.png" width="45" align="left"> Push Blocker
+# <img src="public/icons/icon_48.png" width="45" align="left"> My Extension
 
 My Extension
 
