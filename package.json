@@ -1,0 +1,26 @@
+{
+	"name": "my-extension",
+	"version": "0.1.0",
+	"description": "My Extension",
+	"private": true,
+	"scripts": {
+		"lint": "prettier --ignore-path .gitignore  --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
+		"format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. .",
+		"watch": "webpack --mode=development --watch --config config/webpack.config.js",
+		"build": "webpack --mode=production --config config/webpack.config.js"
+	},
+	"devDependencies": {
+		"copy-webpack-plugin": "^10.2.4",
+		"css-loader": "^6.7.1",
+		"eslint": "^8.16.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-prettier": "^4.0.0",
+		"eslint-webpack-plugin": "^3.1.1",
+		"file-loader": "^6.2.0",
+		"mini-css-extract-plugin": "^2.6.0",
+		"prettier": "^2.6.2",
+		"webpack": "^5.72.1",
+		"webpack-cli": "^4.9.2",
+		"webpack-merge": "^5.8.0"
+	}
+}
